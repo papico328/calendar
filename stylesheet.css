@@ -1,0 +1,109 @@
+body {
+  font-size: 18px;
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: "Nico Moji";
+  font-size: 5em;
+  color: #fff;
+}
+
+.button {
+  width: 35%;
+  color: #fff;
+  font-weight: bold;
+  display:flex;
+  justify-content: space-between;
+  font-size: 2em;
+}
+
+#minus {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+#plus {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.calender-wrapper {
+  background-color: rgba(255,255,255,0.5);
+  width: 35%;
+  border-radius: 20px;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.calendar-title {
+  margin: 0;
+  /* font-size: 2.5em; */
+  font-family: "Nico Moji";
+  text-align: center;
+  transform: scale(0.8, 1);
+  font-style: oblique;
+  text-align: right;
+}
+
+#js-year {
+  font-size: 2em;
+}
+
+#js-month {
+  font-size: 4em;
+}
+
+#js-calendar-head {
+  font-family: "M PLUS Rounded 1c";
+}
+
+#js-calendar-body {
+  font-family: "Nico Moji";
+}
+
+.calendar-table {
+  font-family: "Nico Moji";
+  /* font-family: "Rounded Mplus 1c"; */
+  margin: 0 auto;
+}
+
+.is-today .text {
+  color: #fff;
+  padding: 8px;
+  background-color: #999;
+  border: solid 1px #999;
+  border-radius: 10px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.is-sunday {
+  color: red;
+}
+
+.is-suturday {
+  color: blue;
+}
+
+td {
+  font-size: 2em;
+  transform: scale(0.7, 1);
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
